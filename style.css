@@ -1,0 +1,39 @@
+.dock {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .dock ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .dock li {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 0 15px;
+    line-height: 75px;
+    font-size: 24px;
+    color: #999;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dock li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    color: #000;
+  }
+  
